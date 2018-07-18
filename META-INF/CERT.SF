@@ -1,0 +1,37 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+SHA1-Digest-Manifest: GcvqzTP4qLcirTd6ErWrh5GsJnU=
+
+Name: META-INF/com/google/android/updater-script
+SHA1-Digest: dSIHYzho8YC6EynrDYd5MPDog+A=
+
+Name: system/vendor/etc/acdbdata/Headset_cal.acdb
+SHA1-Digest: Q95rysC/+sQZ3r/NAz8xlPOKqVA=
+
+Name: system/vendor/etc/mixer_paths_tasha.xml
+SHA1-Digest: Spyp1C/H+sKI2y2XpVs5XxYZXP4=
+
+Name: system/vendor/etc/acdbdata/Bluetooth_cal.acdb
+SHA1-Digest: pMWcMkEpKjWOJbNbVTQTfABeF3o=
+
+Name: system/vendor/etc/acdbdata/Global_cal.acdb
+SHA1-Digest: o1C3HjVmEi0fnWncH4EoNkrO0zA=
+
+Name: META-INF/com/android/otacert
+SHA1-Digest: QW7yPFUPbhU0tUYKW4i2EdneCnw=
+
+Name: system/vendor/etc/acdbdata/Speaker_cal.acdb
+SHA1-Digest: MVjNbi3kJvPY/gskfOxnD4PCI2U=
+
+Name: META-INF/com/google/android/update-binary
+SHA1-Digest: jSQUd6PKjqDxgBypWqjIzzpWOag=
+
+Name: system/vendor/etc/acdbdata/Handset_cal.acdb
+SHA1-Digest: THoFJ12XAXLhOtduEJjk2I+m5Xs=
+
+Name: system/vendor/etc/acdbdata/General_cal.acdb
+SHA1-Digest: 5sWgkGS4DMnZ+v19DLdXUDqElq4=
+
+Name: system/vendor/etc/acdbdata/Hdmi_cal.acdb
+SHA1-Digest: S6mgpZGGZYUuJ8QZelhK/5P33Ak=
+

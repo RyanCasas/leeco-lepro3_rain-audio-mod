@@ -1,0 +1,24 @@
+ui_print("|===============================|");
+ui_print("|  Rain Audio Mod v1 for LePro3 |");
+ui_print("|        by @RyanCasas          |");
+ui_print("|===============================|");
+run_program("/sbin/busybox", "umount", "/system");
+run_program("/sbin/busybox", "mount", "/system");
+ui_print("|===============================|");
+ui_print("|       Purging...              |");
+delete_recursive(
+"/system/vendor/etc/acdbdata",
+"/system/vendor/etc/mixer_paths_tasha.xml",
+"/system/vendor/etc/audio_platform_info.xml"
+);
+ui_print("|===============================|");
+ui_print("| Installing Rain Audio Mod v1  |");
+ui_print("|===============================|");
+show_progress(8.800000, 5);
+package_extract_dir("system", "/system/");
+run_program("/sbin/busybox", "umount", "/data");
+run_program("/sbin/busybox", "umount", "/system");
+ui_print("|===============================|");
+ui_print("| Done! Reboot your device now. |");
+ui_print("|===============================|");
+ui_print("0");
